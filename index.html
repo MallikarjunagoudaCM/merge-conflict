@@ -1,10 +1,44 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+
 <head>
-   <title>Title of the page</title>
+  <title>My 1st Company</title>
 </head>
-<body>
-   <form action="some_action" method="POST">
-   </form>
+
+<body style="background-color:red;">
+
+  <h1 style="color:Tomato;">Welcome to My Company</h1>
+  <h2>Web Site Main Ingredients:</h2>
+
+  <p>Pages (HTML)</p>
+  <a href="https://www.w3schools.com/html/html_links.asp">Visit W3Schools.com!</a>
+  <p>Style Sheets (CSS)</p>
+  <p>Computer Code (JavaScript)</p>
+  <p>Live Data (Files and Databases)</p>
+
+<form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>PassWord</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
 </body>
 </html>
