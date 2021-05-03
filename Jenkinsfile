@@ -18,7 +18,7 @@ job('PipelineJ3'){
       
     }
     
-    shell('java -jar target/*.jar' , 'date' )
+    shell('java -jar target/*.jar')
     
    
   }
