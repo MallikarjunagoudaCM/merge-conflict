@@ -1,6 +1,7 @@
 job('PipelineJ3'){
   
   description('This 3rd Pipeline project using Groovy')
+  label('Linux_VM')
   
   scm{
     
